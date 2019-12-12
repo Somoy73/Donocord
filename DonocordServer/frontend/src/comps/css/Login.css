@@ -1,0 +1,37 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 260px 0;
+      
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 15px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 15px;
+}

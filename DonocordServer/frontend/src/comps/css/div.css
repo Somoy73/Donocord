@@ -1,0 +1,103 @@
+
+.divC {
+    height: 200px;
+    width: 400px;
+    background: white;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.divXX {
+  height: 500px;
+  width: 500px;
+  background: white;
+
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image1 {
+    /* The image used */
+    /*background-image: url("photographer.jpg");*/
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 150%;
+    width: 200%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  th {
+    background-color: rgba(47, 114, 8, 0.692);
+    color: white;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }
+  table {
+    width: 300%;
+  }
+  
+.divT {
+  height: 270px;
+  width: 560px;
+  background: white;
+
+  position: fixed;
+  top: 30%;
+  left: 13%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+/* .divx {
+  height: 270px;
+  width: 560px;
+  background: white;
+
+  position: fixed;
+  top: 30%;
+  left: 13%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+*/
+
+table, th, td {
+  border: 1px solid rgba(218, 171, 18, 0.548);
+} 
